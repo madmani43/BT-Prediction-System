@@ -1,28 +1,14 @@
-\---
-
+---
 title: Brain Tumor Detection System
-
-emoji: 🧠
-
+emoji: brain
 colorFrom: blue
-
 colorTo: purple
-
 sdk: gradio
-
-sdk\_version: "4.0.0"
-
-app\_file: app.py
-
+sdk_version: "4.44.0"
+app_file: app.py
 pinned: false
+---
 
-\---
-
-
-
-\# Brain Tumor Detection System
-
-
+# Brain Tumor Detection System
 
 This app predicts brain tumor using MRI data.
-
