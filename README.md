@@ -1,6 +1,6 @@
 ---
 title: Brain Tumor Detection System
-emoji: brain
+emoji: 🧠
 colorFrom: blue
 colorTo: purple
 sdk: gradio
