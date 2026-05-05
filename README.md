@@ -1,22 +1,28 @@
-# BT MRI Detection System
+\---
 
-This repository is built around the Gradio app located at `app folder/app.py`.
+title: Brain Tumor Detection System
 
-## Run locally
+emoji: 🧠
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Start the app:
-   ```bash
-   python main.py
-   ```
-3. Open the local URL shown in the terminal.
+colorFrom: blue
 
-## Project structure
+colorTo: purple
 
-- `app folder/app.py` — main Gradio application
-- `app folder/model.h5` — trained model used by the app
-- `app folder/requirements.txt` — app-specific dependencies
-- `main.py` — root launcher for the Gradio app
+sdk: gradio
+
+sdk\_version: "4.0.0"
+
+app\_file: app.py
+
+pinned: false
+
+\---
+
+
+
+\# Brain Tumor Detection System
+
+
+
+This app predicts brain tumor using MRI data.
+
