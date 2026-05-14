@@ -4,7 +4,7 @@ import gradio as gr
 import tensorflow as tf
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "model.h5")
+MODEL_PATH = os.path.join(BASE_DIR, "models", "model.h5")
 
 if not os.path.isfile(MODEL_PATH):
     raise FileNotFoundError(f"Model file not found: {MODEL_PATH}")
